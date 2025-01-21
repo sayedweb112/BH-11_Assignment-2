@@ -6,6 +6,7 @@
      margin: auto;
      padding: auto;
      background-image: url('assets/bg.png');
+     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 161, 1, 0.137));
  }
 
  /* nav styles */
@@ -18,7 +19,7 @@
      justify-content: space-between;
      margin-left: 140px;
      margin-top: 20px;
-     width: 100%;
+     max-width: 100%;
  }
 
  .nav-section h2 {
@@ -211,12 +212,76 @@
      background-color: transparent;
  }
 
+ .circle-left-right {
+     text-align: center;
+     margin-top: 4.5rem;
+     font-size: 3.5rem;
+     color: rgb(254, 163, 1);
+ }
+
+ /* our story related style */
+
+ .our-stories-card {
+     width: 400px;
+     border-radius: 12px;
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     overflow: hidden;
+ }
+
+ #our-stories-title {
+     font-size: 3rem;
+     color: #000000;
+     text-align: center;
+ }
+
+ .card-image {
+     width: 100%;
+     height: auto;
+ }
+
+ .card-content {
+     padding: 16px;
+     margin-top: -50px;
+ }
+
+ .date {
+     color: #fff;
+     border: none;
+     background-color: #05D4DF;
+     display: inline-block;
+     padding: 19px 15px;
+     border-radius: 25px;
+     font-size: .8rem;
+     font-weight: bold;
+
+ }
+
+ .title {
+     font-size: 18px;
+     font-weight: bold;
+     color: #333;
+     margin: 0 0 10px 0;
+ }
+
+ .description {
+     font-size: 14px;
+     color: #666;
+     line-height: 1.5;
+ }
+
+ .title,
+ .description {
+     margin-top: 2rem;
+ }
+
 
 
  /* responsive media query */
  @media screen and (max-width:576px) {
      .navigation {
          display: none;
+
 
 
      }
@@ -303,7 +368,12 @@
          border: 1px solid rgba(0, 0, 0, 0.05);
          box-shadow: rgba(0, 0, 0, 0.05);
      }
+
+     .circle-left-right {
+         display: none;
+     }
  }
+
 
  /* medium size device */
  @media screen and (min-width:576px) and (max-width:992px) {}
