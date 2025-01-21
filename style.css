@@ -171,16 +171,23 @@
      background-image: linear-gradient(rgb(222, 245, 255), rgba(255, 255, 255, 0));
      box-shadow: (0, 0, 28.3, .94);
      border-radius: 18px;
+     border: 1.5px solid rgba(0, 0, 0, 0.05);
+     box-shadow: rgba(0, 0, 0, 0.05);
  }
+
 
  .kinder2 {
      background-image: linear-gradient(rgb(255, 244, 220), rgba(255, 255, 255, 0));
      border-radius: 18px;
+     border: 1.5px solid rgba(0, 0, 0, 0.05);
+     box-shadow: rgba(0, 0, 0, 0.05);
  }
 
  .kinder3 {
      background-image: linear-gradient(rgb(238, 225, 255), rgba(255, 255, 255, 0));
      border-radius: 18px;
+     border: 1.5px solid rgba(0, 0, 0, 0.05);
+     box-shadow: rgba(0, 0, 0, 0.05);
  }
 
  #btn3 {
@@ -203,6 +210,8 @@
      color: #8700FF;
      background-color: transparent;
  }
+
+
 
  /* responsive media query */
  @media screen and (max-width:576px) {
@@ -281,7 +290,19 @@
          background-color: #111111;
      }
 
+     .kinder-elementary-middle {
+         display: grid;
+         grid-template-columns: repeat (1, 1fr);
+         gap: 12px;
 
+     }
+
+     .kinder1,
+     .kinder2,
+     .kinder3 {
+         border: 1px solid rgba(0, 0, 0, 0.05);
+         box-shadow: rgba(0, 0, 0, 0.05);
+     }
  }
 
  /* medium size device */
