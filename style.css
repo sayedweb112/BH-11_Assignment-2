@@ -17,6 +17,7 @@
      justify-content: space-between;
      margin-left: 140px;
      margin-top: 20px;
+     width: 100%;
  }
 
  .nav-section h2 {
@@ -60,11 +61,67 @@
  button {
      padding: 10px 60px;
      margin-top: 14px;
-     margin-right: 140px;
+     margin-right: 200px;
      font-size: 1rem;
      font-weight: 600;
      border: none;
      border-radius: 12px;
      color: #ffffff;
      background-color: #FEA301;
+ }
+
+ .navbar-icon {
+     font-size: 40px;
+     display: none;
+ }
+
+ /* responsive media query */
+ @media screen and (max-width:576px) {
+     .navigation {
+         display: none;
+
+
+     }
+
+     button {
+         padding: 10px 60px;
+         margin-top: 14px;
+         margin-right: 200px;
+         font-size: 1rem;
+         font-weight: 600;
+         border: none;
+         border-radius: 12px;
+         color: #ffffff;
+         background-color: #FEA301;
+     }
+
+
+     header {
+         border: 1px solid #FEA301;
+         width: 100%;
+     }
+
+     .nav-section {
+         margin: 12px 328px 12px 16px;
+     }
+
+     .logo h2 {
+         display: none;
+     }
+
+     .logo-icon-conainer {
+
+         display: flex;
+         gap: 280px;
+
+     }
+
+     .navbar-icon {
+         display: flex;
+         margin-top: 10px;
+
+
+     }
+
+
  }
