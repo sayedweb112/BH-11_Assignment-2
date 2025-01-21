@@ -79,7 +79,7 @@
      display: none;
  }
 
- /* empower-img-title styles */
+ /* empower-img-title1 & 2 styles */
  .btn2 {
      padding: 10px 60px;
      margin-top: 14px;
@@ -92,7 +92,7 @@
      background-color: #111111;
  }
 
- .empower-img-title {
+ .empower-img-title1 {
      display: flex;
      gap: 50px;
 
@@ -121,7 +121,7 @@
 
      }
 
-     button {
+     .btn1 {
          padding: 10px 60px;
          margin-top: 14px;
          margin-right: 200px;
@@ -161,15 +161,34 @@
 
      }
 
-     .empower-img-title {
+
+
+     .empower-img-title1 {
          display: none;
 
 
      }
 
      .empower-img-title2 {
-         display: block;
+         display: grid;
+         grid-template-columns: (1, 1fr);
+     }
+
+     .btn2 {
+
+         padding: 10px 60px;
+         margin-top: 14px;
+         margin-right: 200px;
+         font-size: 1rem;
+         font-weight: 600;
+         border: none;
+         border-radius: 12px;
+         color: #ffffff;
+         background-color: #111111;
      }
 
 
  }
+
+ /* medium size device */
+ @media screen and (min-width:576px) and (max-width:992px) {}
