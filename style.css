@@ -1,0 +1,70 @@
+ body {
+     font-family: "Quicksand", serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* nav styles */
+ .logo {
+     display: flex;
+ }
+
+ .nav-section {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 140px;
+     margin-top: 20px;
+ }
+
+ .nav-section h2 {
+     color: #111111;
+ }
+
+
+ .navigation {
+     display: flex;
+
+ }
+
+ #home {
+     color: #FEA301;
+ }
+
+ #about {
+     color: #01ACFD;
+ }
+
+ #facilities {
+     color: #05D4DF;
+ }
+
+ #admission {
+     color: #5D58EF;
+ }
+
+ .navigation ul {
+     display: flex;
+     list-style: none;
+     gap: 32px;
+     margin-right: 185px;
+
+ }
+
+ .navigation a {
+     text-decoration: none;
+ }
+
+ button {
+     padding: 10px 60px;
+     margin-top: 14px;
+     margin-right: 140px;
+     font-size: 1rem;
+     font-weight: 600;
+     border: none;
+     border-radius: 12px;
+     color: #ffffff;
+     background-color: #FEA301;
+ }
