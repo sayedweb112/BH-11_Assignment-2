@@ -3,9 +3,11 @@
      font-optical-sizing: auto;
      font-weight: weight;
      font-style: normal;
+     max-width: auto;
      margin: auto;
      padding: auto;
      background-image: url('assets/bg.png');
+
  }
 
  /* nav styles */
@@ -341,6 +343,7 @@
  }
 
  footer {
+     width: 100%;
      display: flex;
      background-color: #01ACFD;
      padding: 130px;
@@ -403,6 +406,10 @@
 
  /* responsive media query */
  @media screen and (max-width:576px) {
+     body {
+         max-width: auto;
+     }
+
      .navigation {
          display: none;
 
