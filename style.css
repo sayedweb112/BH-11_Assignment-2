@@ -3,8 +3,8 @@
      font-optical-sizing: auto;
      font-weight: weight;
      font-style: normal;
-     margin: 0;
-     padding: 0;
+     margin: auto;
+     padding: auto;
      background-image: url('assets/bg.png');
  }
 
@@ -75,7 +75,7 @@
 
 
  .navbar-icon {
-     font-size: 40px;
+
      display: none;
  }
 
@@ -111,6 +111,97 @@
 
  .empower-img-title2 {
      display: none;
+ }
+
+ /* standard-title related styles */
+ .standard-title h2 {
+     font-size: 3rem;
+     text-align: center;
+     margin-top: 3.5rem;
+     margin-bottom: 5rem;
+     color: #000000;
+ }
+
+ .kinder-elementary-middle {
+     display: flex;
+     gap: 28px;
+ }
+
+ .kinder1 h4 {
+     font-size: 1.5rem;
+     color: #202020;
+ }
+
+ .kinder1 p {
+     font-size: 1rem;
+     color: #808080;
+ }
+
+ .kinder2 h4 {
+     font-size: 1.5rem;
+     color: #202020;
+ }
+
+ .kinder2 p {
+     font-size: 1rem;
+     color: #808080;
+ }
+
+ .kinder3 h4 {
+     font-size: 1.5rem;
+     color: #202020;
+ }
+
+ .kinder3 p {
+     font-size: 1rem;
+     color: #808080;
+ }
+
+
+
+ .kinder1,
+ .kinder2,
+ .kinder3 {
+     padding: 80px;
+     text-align: center;
+
+ }
+
+ .kinder1 {
+     background-image: linear-gradient(rgb(222, 245, 255), rgba(255, 255, 255, 0));
+     box-shadow: (0, 0, 28.3, .94);
+     border-radius: 18px;
+ }
+
+ .kinder2 {
+     background-image: linear-gradient(rgb(255, 244, 220), rgba(255, 255, 255, 0));
+     border-radius: 18px;
+ }
+
+ .kinder3 {
+     background-image: linear-gradient(rgb(238, 225, 255), rgba(255, 255, 255, 0));
+     border-radius: 18px;
+ }
+
+ #btn3 {
+     border: none;
+     outline: none;
+     color: #64C8FF;
+     background-color: transparent;
+ }
+
+ #btn4 {
+     border: none;
+     outline: none;
+     color: #F0AA00;
+     background-color: transparent;
+ }
+
+ #btn5 {
+     border: none;
+     outline: none;
+     color: #8700FF;
+     background-color: transparent;
  }
 
  /* responsive media query */
@@ -156,8 +247,10 @@
 
      .navbar-icon {
          display: flex;
+         font-size: 2.5rem;
          margin-top: 10px;
-         margin-right: 50px;
+         margin-right: 40px;
+
 
 
      }
