@@ -59,7 +59,7 @@
      text-decoration: none;
  }
 
- button {
+ .btn1 {
      padding: 10px 60px;
      margin-top: 14px;
      margin-right: 200px;
@@ -69,10 +69,47 @@
      border-radius: 12px;
      color: #ffffff;
      background-color: #FEA301;
+
  }
+
+
 
  .navbar-icon {
      font-size: 40px;
+     display: none;
+ }
+
+ /* empower-img-title styles */
+ .btn2 {
+     padding: 10px 60px;
+     margin-top: 14px;
+     margin-right: 200px;
+     font-size: 1rem;
+     font-weight: 600;
+     border: none;
+     border-radius: 12px;
+     color: #ffffff;
+     background-color: #111111;
+ }
+
+ .empower-img-title {
+     display: flex;
+     gap: 50px;
+
+
+ }
+
+ .empower-title-des {
+     margin-left: 141px;
+     margin-top: 120px;
+ }
+
+ .img {
+     margin-left: 150px;
+
+ }
+
+ .empower-img-title2 {
      display: none;
  }
 
@@ -122,6 +159,16 @@
          margin-top: 10px;
 
 
+     }
+
+     .empower-img-title {
+         display: none;
+
+
+     }
+
+     .empower-img-title2 {
+         display: block;
      }
 
 
