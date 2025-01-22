@@ -324,6 +324,9 @@ marquee {
     margin-top: 2rem;
 }
 
+.our-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 163, 1, 0.3));
+}
 
 .all-card {
     max-width: 100%;
@@ -332,7 +335,7 @@ marquee {
     gap: 10px;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 163, 1, 0.3));
+
     overflow-y: hidden;
 }
 
@@ -553,6 +556,12 @@ footer {
         max-width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 15px;
+        overflow-y: hidden;
+    }
+
+    .our-section {
+        background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 163, 1, 0.3));
 
     }
 
