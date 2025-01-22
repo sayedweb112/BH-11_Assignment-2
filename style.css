@@ -244,8 +244,9 @@ marquee {
 /* our story related style */
 
 .our-stories-card1 {
-    width: 100%;
+    max-width: 100%;
     width: 450px;
+    margin-left: 50px;
     border-radius: 12px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -274,6 +275,7 @@ marquee {
     border: none;
     background-color: #05D4DF;
     display: inline-block;
+    margin-right: 200px;
     padding: 19px 15px;
     border-radius: 25px;
     font-size: .8rem;
@@ -324,12 +326,14 @@ marquee {
 
 
 .all-card {
-    width: 100%;
-    display: flex;
-    gap: 18px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     text-align: center;
     justify-content: center;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 163, 1, 0.3));
+    overflow-y: hidden;
 }
 
 .our-stories-card2 {
@@ -346,13 +350,15 @@ marquee {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
+    margin-right: 0px;
 }
 
-.btn3 {
-    width: 15%;
-    padding: 10px 60px;
+.btn6 {
+    width: 30%;
     margin-top: 80px;
-    margin-left: 620px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    padding: 20px;
     text-align: center;
     justify-content: center;
     font-size: 1.1rem;
@@ -361,6 +367,8 @@ marquee {
     border-radius: 12px;
     color: #ffffff;
     background-color: #111111;
+
+
 
 }
 
@@ -430,9 +438,11 @@ footer {
 @media screen and (max-width:576px) {
 
 
+
     body {
         font-size: 1rem;
         overflow-x: hidden;
+        box-sizing: border-box;
     }
 
 
@@ -517,9 +527,32 @@ footer {
         background-color: #111111;
     }
 
-    .btn3 {
+    .btn6 {
         text-align: center;
         justify-items: center;
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        padding: 15px;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 12px;
+        color: #ffffff;
+        background-color: #111111;
+    }
+
+    .four-card {
+        margin-left: 17%;
+    }
+
+    .all-card {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
 
     }
 
@@ -547,12 +580,22 @@ footer {
 
 
     footer {
-        width: 50%;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
-        overflow-x: hidden;
+        margin: 0 auto;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
 
+
+    }
+
+    footer::after {
+        content: "";
+        display: block;
+        clear: both;
     }
 
     .footer-link {
